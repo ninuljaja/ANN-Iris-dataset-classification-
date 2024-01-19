@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ai_test2.Controller">
+   <children>
+      <Button fx:id="startTrainingBtn" layoutX="65.0" layoutY="54.0" mnemonicParsing="false" onAction="#onStartTrainingBtn" prefHeight="33.0" prefWidth="108.0" text="Start training" />
+      <Button fx:id="startTestingBtn" layoutX="64.0" layoutY="186.0" mnemonicParsing="false" onAction="#onStartTestingBtn" prefHeight="33.0" prefWidth="108.0" text="Start testing" />
+      <ScrollPane layoutX="226.0" layoutY="35.0" prefHeight="327.0" prefWidth="342.0">
+         <content>
+            <TextFlow fx:id="finalResult" prefHeight="200.0" prefWidth="337.0" />
+         </content>
+      </ScrollPane>
+      <Button layoutX="64.0" layoutY="311.0" mnemonicParsing="false" onAction="#onExitBtn" prefHeight="33.0" prefWidth="108.0" text="Exit" />
+   </children>
+</Pane>
